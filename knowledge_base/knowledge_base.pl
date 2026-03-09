@@ -1,9 +1,9 @@
-% --- Crops ---
+% Crops
 crop(maize).
 crop(rice). 
 
 
-% --- MAIZE ISSUES ---
+% MAIZE ISSUES
 
 % Diagnosis Rules 
 disease(maize, fall_armyworm) :- symptom(leaf_holes), symptom(ragged_leaves), symptom(frass_in_whorl).
@@ -16,7 +16,7 @@ treatment(maize_leaf_blight, "Cultural: Remove infected leaves, plow under resid
 treatment(maize_rust, "Cultural: Field sanitation, avoid overhead irrigation. Biological: Bacillus pumilus foliar spray. Chemical: Propiconazole or Sulfur fungicides.") :- !.
 
 
-% --- RICE ISSUES ---
+% RICE ISSUES
 
 % Diagnosis Rules 
 disease(rice, rice_blast) :- symptom(diamond_shaped_spots), symptom(gray_center_lesions), symptom(neck_rot).
