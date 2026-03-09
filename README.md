@@ -34,7 +34,9 @@ The system follows the standard Expert System architecture consisting of three m
 The project directory structure is organized as follows:
 
 knowledge_base/   -> Contains Prolog rules and facts (.pl files) used for the diagnosis engine.
+
 interface/        -> Python interface that communicates with the Prolog knowledge base and handles user input/output.
+
 docs/             -> Project documentation including the knowledge engineering report and setup instructions.
 
 ## Technologies Used
