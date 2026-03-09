@@ -31,9 +31,12 @@ The system follows the standard Expert System architecture consisting of three m
    - Contains the knowledge engineering report explaining how the agricultural knowledge was collected, structured, and represented in the system.
 
 ## Project Structure
-/knowledge_base   → Prolog rules and facts (.pl file)
-/interface        → Python interface that communicates with Prolog
-/docs             → Project documentation and knowledge engineering report
+The project directory structure is organized as follows:
+
+knowledge_base/   -> Contains Prolog rules and facts (.pl files) used for the diagnosis engine.
+interface/        -> Python interface that communicates with the Prolog knowledge base and handles user input/output.
+docs/             -> Project documentation including the knowledge engineering report and setup instructions.
+
 ## Technologies Used
 - SWI-Prolog
 - Python
